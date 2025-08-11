@@ -9,8 +9,9 @@ This repository contains the implementation and analysis from the research paper
 - **ISBN**: 979-8-3503-8577-9/24/$31.00 ©2024 IEEE
 
 ## Research Objective
-The study addresses the limitations of traditional apple quality assessment methods (e.g., physical and chemical analyses), which are time-consuming and damaging to samples. It proposes non-destructive techniques, focusing on machine learning algorithms, to accurately classify apple quality into "good" and "bad" categories. The research evaluates multiple models and employs XAI tools (LIME and SHAP) to enhance interpretability.
-
+```
+R. Chowdhury, R. Das, F. B. Faruk Ananna, A. Saha, S. Nawar and M. H. Hosen, "Unveiling Predictive Factors in Apple Quality: Leveraging LIME, SHAP, and the Synergy of Machine Learning Models and Artificial Neural Networks," 2024 6th International Conference on Electrical Engineering and Information & Communication Technology (ICEEICT), Dhaka, Bangladesh, 2024, pp. 1026-1031, doi: 10.1109/ICEEICT62016.2024.10534426. keywords: {Adaptation models;Machine learning algorithms;Biological system modeling;Static VAr compensators;Artificial neural networks;Boosting;Vectors;Apple quality;fruit classification;machine learning;ANN;XAI;LIME;SHAP},
+```
 ## Methodology
 - **Dataset**: A Kaggle dataset with 4000 instances, featuring nine attributes (ID, size, weight, sweetness, crunchiness, juiciness, ripeness, acidity, and quality), where quality is the target variable (good = 1, bad = 0).
 - **Data Preprocessing**: Handled missing data, duplicates, and scaled features to ensure consistency.
